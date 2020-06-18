@@ -1,3 +1,5 @@
+package first;
+
 /**
  * first exercise about inheritance, polymorphism
  */
