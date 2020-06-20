@@ -5,7 +5,7 @@ public class SecondPolymorphismExample {
         A a= new C2();
         B b= new B();
         C1 c1= new C1();
-//        C2 c2= (C2) a;
+        C2 c2= (C2) a;
         System.out.println(a.x); /* Q2a */
         System.out.println(c1.x); /* Q2b */
         System.out.println(a.getX()); /* Q2c */
@@ -13,15 +13,11 @@ public class SecondPolymorphismExample {
         b.x+= 10;
         c1.x+= 10;
         System.out.println(b.x); /* Q2e */
-
-
-
-
-//        c2.plop(200);
+        c2.plop(200);
         c1.plop(300);
         System.out.println(a.y); /* Q2f */
         System.out.println(c1.y); /* Q2g */
-//        System.out.println(c2.y);
+        System.out.println(c2.y);
     }
 }
 
