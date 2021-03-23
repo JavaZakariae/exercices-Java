@@ -48,6 +48,7 @@ class B extends A {
     }
 }
 
+/* C class */
 class C extends B {
     int x = 5;
     public void setX(int x) {
