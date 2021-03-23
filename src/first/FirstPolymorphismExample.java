@@ -26,6 +26,8 @@ public class FirstPolymorphismExample {
 interface I {
     int compute(int x);
 }
+
+/* A class */
 abstract class A implements I {
     public int x = 2;
     public static int y = 10;
