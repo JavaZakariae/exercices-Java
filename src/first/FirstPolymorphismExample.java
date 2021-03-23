@@ -41,6 +41,7 @@ abstract class A implements I {
     }
 }
 
+/* B class */
 class B extends A {
     public static int y = 20;
     public int compute(int x) {
