@@ -1,1 +1,1 @@
-some java exercices
+some java exercices about OOP
